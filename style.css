@@ -1,0 +1,30 @@
+
+
+
+.dropdown-item.danger{
+    color: red;
+  }
+  
+  .container {
+      display: flex;
+      justify-content: center; /* Center the row horizontally */
+      align-items: center;     /* Center the row vertically */
+       margin-top: 10px;
+    }
+    
+  .maincontent{
+      margin: 10px;
+  }
+  
+  .p-3 {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+  }
+  .p-3 img {
+    max-width: 100%; /* Ensures the image doesn't overflow the container */
+    height: auto;    /* Keeps the image aspect ratio */
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center;    /* Centers items horizontally */
+    text-align: center;  
+  }
